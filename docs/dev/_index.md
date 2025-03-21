@@ -84,7 +84,7 @@ So when Contao decided to use plain old PHP as templates, one would have to call
 variable that was echo'ed. Instead of doing that, it was decided to encode the input and store the data encoded in the
 database already. You do have the option to disable this when you develop your own extensions to Contao but
 it's just something to keep in mind. We all know it's wrong but migrating away from already encoded data is very hard
-and likely will only become a thing when we switch to Contao 5.
+and likely will only become a thing when we switch to Contao 6.
 
 {{% notice warning %}}
 So be aware of this. Don't just use e.g. Symfony's `Request` class to fetch user input, store it as is in the DB and
